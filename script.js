@@ -2,7 +2,7 @@ const btn = document.querySelector(".change-grid-btn");
 const container = document.querySelector(".container");
 
 btn.addEventListener("click", changeGrid);
-let gridSize = 2;
+let gridSize = 16;
 
 function changeGrid(){
     let gridSize = prompt("Choose grid size, min: 2 and max: 100");
